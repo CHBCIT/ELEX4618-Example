@@ -1,15 +1,15 @@
 #include "stdafx.h"
 #include <iostream>
-#include "CDiamond.h"
+#include "Ctriangle.h"
 
 using namespace std;
 
 int main()
 {
-  CDiamond dim(10);
-
-  dim.draw();
-
+	int stop;
+	CTriangle Triangle;
+	Triangle.DrawTriangle(5,5);
+	cin >> stop;
   return 0;
 }
 
