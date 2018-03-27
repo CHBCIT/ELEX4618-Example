@@ -3,9 +3,9 @@
 
 using namespace std;
 
-CDiamond::CDiamond()
+CDiamond::CDiamond(int l)
 {
-	length = 5;
+	length = l;
 }
 
 

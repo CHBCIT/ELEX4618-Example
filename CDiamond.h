@@ -6,7 +6,7 @@ using namespace std;
 class CDiamond
 {
 public:
-	CDiamond();
+	CDiamond(int l);
 	~CDiamond();
 	int length;
 
